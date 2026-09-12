@@ -1,0 +1,22 @@
+# Generated model files - rebuild with: python build_model.py
+model/
+*.pkl
+
+# Raw data - download from Kaggle, see README
+dataset/
+*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Streamlit
+.streamlit/secrets.toml
